@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+div.wholesite {
+    height: 700px;
+    align-content: center;
+    justify-content: center;
+    background-color: hsl(30, 38%, 92%);
+    padding-top: 30px;
+    padding-bottom: 100px;
+}
+div.innersite {
+    display: flex;
+    flex-direction: row;
+    background-color:  hsl(0, 0%, 100%);
+    margin: auto;
+    height: 500px;
+    width: 600px;
+} 
+h1 {
+    color: hsl(212, 21%, 14%);
+    margin-top: 20px;
+}
+h2 {
+    color: hsl(228, 12%, 48%);
+    margin-top: 20px;
+    font-weight: 5;
+}
+h3 {
+    color: hsl(158, 36%, 37%);
+    font-size: xx-large;
+    margin-top: 30px;
+}
+h5 {
+    margin-left: 50px;
+    color: hsl(228, 12%, 48%);
+    margin-top: 40px;
+    text-decoration: line-through;
+}
+.innersite img{
+    width: 300px;
+    height: 100%;
+}
+button {
+    background-color: hsl(158, 36%, 37%);
+    border-radius: 10px;
+    width: 250px;
+    height: 50px;
+    margin-top: 20px;
+    border-style: none;
+    color: hsl(0, 0%, 100%);
+    align-self: baseline ;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+}
+p {
+    color: hsl(228, 12%, 48%);
+    margin-top: 30px;
+    margin-bottom: 5px ;
+    font-size: 15pt;
+}
+.text {
+    display: flex; 
+    flex-direction: row;
+}
+.pic {
+    height: 100%;
+    padding-left: 30px ;
+}
+.but svg{
+    margin-right: 20px;
+}
+h4 {
+    font-size: larger;
+}
